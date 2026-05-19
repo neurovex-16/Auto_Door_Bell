@@ -97,12 +97,15 @@ pip install cmake,
 pip install dlib,
 pip install face_recognition
 
-# 📂 Project Structure
+# 📁 Project Structure
 
+```bash
 Smart_Doorbell/
 │
 ├── main.py
-├── Audio/
-│   └── doorbell.wav
 ├── requirements.txt
-└── README.md
+├── README.md
+│
+└── Audio/
+    └── doorbell.wav
+```
