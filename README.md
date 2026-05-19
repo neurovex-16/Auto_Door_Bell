@@ -36,8 +36,10 @@ The `face_recognition` package depends on native C++ libraries such as `dlib`, s
 Download Python from the official website.
 Recommended versions:
 - Python 3.7 – Python 3.13
+
 During installation:
 ✅ Enable the option:
+
 Add Python to PATH
 This allows Python commands to work directly from the terminal.
 
@@ -45,8 +47,7 @@ This allows Python commands to work directly from the terminal.
 
 dlib requires CMake to compile its source files
 Download Cmake from:https://cmake.org/download/
-During installation:
-Choose: Add CMake to the system PATH
+During installation:Add CMake to the system PATH
 
 # 3️⃣ Install Microsoft C++ Build Tools
 
@@ -54,14 +55,11 @@ Since dlib contains C++ code, Windows needs the Visual C++ compiler tools.
 Download from:https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
 While installing, make sure these components are selected:
-Desktop development with C++
+Desktop development with C++,
 Windows SDK
 
 # 4️⃣ Create a Virtual Environment (Recommended)
-
 Using a virtual environment keeps project dependencies isolated.
-Create environment:python -m venv venv or py -m venv venv
-Activate it on windows:venv\Scripts\activate
 
 # 5️⃣ Update pip and Build Packages
 
