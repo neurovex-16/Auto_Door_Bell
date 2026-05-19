@@ -47,6 +47,7 @@ This allows Python commands to work directly from the terminal.
 
 dlib requires CMake to compile its source files
 Download Cmake from:https://cmake.org/download/
+
 During installation:Add CMake to the system PATH
 
 # 3️⃣ Install Microsoft C++ Build Tools
