@@ -92,9 +92,9 @@ Cmake --version
 
 ## Recommended Fix Commands
 
-pip install --upgrade pip setuptools wheel
-pip install cmake
-pip install dlib
+pip install --upgrade pip setuptools wheel,
+pip install cmake,
+pip install dlib,
 pip install face_recognition
 
 # 📂 Project Structure
