@@ -64,7 +64,8 @@ Using a virtual environment keeps project dependencies isolated.
 
 # 5️⃣ Update pip and Build Packages
 
-Before installation, upgrade package management tools:pip install --upgrade pip setuptools wheel
+Before installation, upgrade package management tools:pip install 
+--upgrade pip setuptools wheel
 
 # 6️⃣ Install face_recognition
 
